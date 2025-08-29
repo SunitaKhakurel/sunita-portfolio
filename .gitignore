@@ -1,0 +1,27 @@
+# repos
+backend/
+
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# env & secrets
+.env
+frontend/.env
+.env.*
+!.env.example
+
+# builds / caches
+dist/
+build/
+.vite/
+.next/
+out/
+.cache/
+coverage/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
