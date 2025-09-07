@@ -1,5 +1,11 @@
-# repos
-backend/
+# track backend folder, but ignore junk
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
 
 # dependencies
 node_modules/
